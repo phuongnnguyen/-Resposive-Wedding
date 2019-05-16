@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Macondo+Swash+Caps');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Macondo Swash Caps', cursive !important;
+    font-size: 20px !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Macondo Swash Caps', cursive !important;
+}
+img {
+    width: 100%;
+}
+header {
+    background-image: url("http://123.242.161.52/w3images/IMG/wedding_couple.jpg");
+}
+.header {
+    background-image: url("https://www.graemeshaw.com/wp-content/uploads/2012/03/wedding-rings-wallpaper1.jpg");
+}
+header, .header {
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    width: 100%;
+    height: 700px;
+}
+nav a {
+    width: 25% !important;
+}
+#wrapper1 {
+    background-color: rgb(233, 232, 233) !important;
+}
+#rsvp button {
+    width: 200px;
+    height: 50px;
+}

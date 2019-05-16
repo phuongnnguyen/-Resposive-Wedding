@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Responsive Website</title>
+
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="libs/w3.css">
+  <link rel="stylesheet" href="font/css/font-awesome.min.css">
+
+  <script src="libs/jquery.js" defer></script>
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <div id="wrapper">
+    <header class="w3-greyscale">
+      <div class="w3-display-middle w3-center w3-text-white">
+        <h1 class="w3-jumbo">Jane & John</h1>
+        <p class="w3-xxlarge">Are getting married</h3>
+        <p class="w3-xlarge"><b>17.07.2017</b></p>
+      </div>
+    </header>
+    <nav class="w3-top w3-green w3-hide-small">
+      <div class="w3-bar w3-padding-small">
+        <a href="#" class="w3-bar-item w3-button w3-hide-small">Home</a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small">Jane & Jone</a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small">Wedding</a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small">RSVP</a>
+      </div>
+    </nav>
+    <main>
+      <section class="w3-padding-awesome" id="first">
+        <div>
+          <h2 class="w3-center">Jane & John</h2>
+          <img src="https://images.pexels.com/photos/256737/pexels-photo-256737.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="wedding">
+          <p class="w3-justify w3-padding-32">
+              You all know us. And we all know you. We are getting married lorem ipsum dolor sit amet, 
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+              commodo consequat. Excepteur sint occaecat cupidatat non proident, 
+              sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <p class="w3-center"><button class="w3-button w3-black w3-round-large w3-padding-large">Wedding Detail</button></p>
+        </div>
+      </section>
+      <section class="header w3-display-container">
+        <div class="w3-display-middle w3-center w3-text-white">
+          <h1 class="w3-jumbo">You Are Invited</h1>
+          <p class="w3-xxlarge">Of Course...</h3>
+        </div>
+      </section>
+      <section>
+        <div class="w3-padding-64">
+          <h1 class="w3-center">The Wedding</h1>
+          <div class="w3-row-padding w3-center w3-padding-awesome">
+            <div class="w3-col s12 m3 l3">
+                <p>Days</p>
+                <span id="day" class="w3-padding-64 w3-center"></span>
+            </div>
+            <div class="w3-col s12 m3 l3">
+                <p>Hours</p>
+                <span id="hour" class="w3-padding-64 w3-center"></span>
+            </div>
+            <div class="w3-col s12 m3 l3">
+              <p>Minutes</p>
+              <span id="minutes" class="w3-padding-64 w3-center"></span> 
+            </div>
+            <div class="w3-col s12 m3 l3" >
+              <p>Seconds</p>
+              <span id="seconds" class="w3-padding-64 w3-center"></span>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <section id="rsvp">
+        <div class="w3-padding-awesome w3-center w3-green">
+          <h1>HOPE YOU CAN MAKE IT</h1>
+          <p>Kindly Respond By January, 2025</p>
+          <button class="w3-button w3-round-large w3-red" onclick="document.getElementById('id01').style.display='block'">RSVP</button>
+        </div>
+      </section>
+    </main>
+    <div class="wrapper">
+      <div class="button" onclick="document.body.classList.add('active')">
+          <span class="button-text">Press</span>
+          <div class="button-backgrounds">
+              <div class="button-circle button-circle1"></div>
+              <div class="button-circle button-circle2"></div>
+              <div class="button-circle button-circle3"></div>
+              <div class="button-circle button-circle4"></div>
+          </div>
+      </div>
+  </div>
+  </div>
+</body>
+</html>
